@@ -1,0 +1,132 @@
+  /*   * {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        box-sizing: border-box;
+    }
+  seccion flex*/
+
+  html {
+  background: linear-gradient(to bottom right, #530060, #e19);
+  }
+    [class^="container-flex-"] {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-flex-column {
+        justify-content: center;
+    }
+
+    .container-flex-colu {
+        justify-content: space-around;
+    }
+
+    .flex-item {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+  .vh100 {height: 100vh;}
+
+  .logo {width: 25%;}
+
+  .px100 {height: 100px;}
+
+  .logo_2 {
+        width: 30%;
+        align-self: flex-end;
+        margin-right: 40px;
+  }
+
+   .logo_1 {width: 53%;}
+
+    .welcome,
+    .btn-success,
+    .btn-success:hover,
+    .btn-success:active {
+        background: linear-gradient(to bottom right, #530060, #e19);
+    }
+
+    .welcome2 {
+        background-image: url('../assets/images/city_trafic.jpg');
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: none;
+    }
+
+    /*signup*/
+
+    #login {
+        display: flex;
+        text-align: center;
+        color: white;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 408px;
+        background: linear-gradient(to bottom right, #530060, #e19);
+    }
+
+    .menu {
+        display: flex;
+        width: 280px;
+        justify-content: space-between;
+    }
+
+    .btnsignup, #trial {
+        align-self: flex-start;
+        margin-top: 1.5em;
+        color: black;
+    }
+
+    #test, #test1 {
+        margin-top: 1em;
+        height: 40px;
+    }
+
+    .flags {
+        margin-top: 1em;
+        list-style: none;
+    }
+
+    .headersignup {
+        box-shadow: inset 0px -2px 1px #dbd8d8;
+        background: linear-gradient(to bottom right, #530060, #e19);
+        color: white;
+    }
+
+    /*register*/
+
+    #new-register {
+        background: linear-gradient(to bottom right, #530060, #e19);
+        color: white;
+    }
+
+    .btndoblue {
+        display: flex;
+        justify-content: space-around;
+        width: 157px;
+    }
+
+    @media (min-width: 1280px) {
+        .logo_2 {
+            width: 20%;
+            align-self: flex-end;
+            margin-right: 465px;
+        }
+        .logo_1 {width: 10%;}
+
+        #login {height: 535px;}
+        }
+
+  /*finish*/
+
+  .lastOne {
+    background: linear-gradient(to bottom right, #530060, #e19);
+}
+  }
